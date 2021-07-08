@@ -1,5 +1,5 @@
 {
-      "name": "Amela Robot",
+      "name": "Amelia Robot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -61,7 +61,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "The_Ghost_Hunter"
+         "value": "Itsmelegend"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
@@ -176,7 +176,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "no need"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
