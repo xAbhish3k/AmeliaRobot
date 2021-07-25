@@ -6,7 +6,7 @@
 
 ### Telegram Group
 <p align="left">
-<a href="https://t.me/camila_support" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ### Bot And Channel 
 * Bot Link:  <a href="http://t.me/AmeliaGroup_bot" alt=" Amelia "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-AmeliaRobot-blue" /> </a>
@@ -47,7 +47,7 @@ Make sure to edit the start and restart bats to your needs.
 Note: the restart bat requires that User account control be disabled.
 
 For queries or any issues regarding the bot please open an issue ticket or visit us at <p align="left">
-<a href="https://t.me/camila_support" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ## How to setup on Heroku 
 For starters click on this button 
@@ -57,11 +57,11 @@ For starters click on this button
 
 ## Our Telegram Channel and Group
 
-* [Warbotz](https://telegram.dog/warbotz)
-* [WarBotzChat](https://telegram.dog/camila_support)
+* [Warbotz](https://telegram.dog/thewarbotz)
+* [WarBotzChat](https://telegram.dog/WarBotzsupport)
 
 ## Credits, and Thanks to 
-*   [Abhishek](https://telegram.dog/itsmelegend)
+*   [Abhishek](https://telegram.dog/xAbhisheksingh)
 
 
 
