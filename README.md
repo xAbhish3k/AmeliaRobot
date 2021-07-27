@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://telegra.ph/file/329647a798cccb101aecf.jpg">
+  <img src="https://telegra.ph/file/b4c4e61e8a1a9eddee8f6.jpg">
 </p>
 
-# Amelia Group BoT
+# 𝐌𝐈𝐒𝐒 𝐀𝐋𝐈𝐒𝐒𝐀
 
 ### Telegram Group
 <p align="left">
-<a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://t.me/MissAlissaSupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ### Bot And Channel 
-* Bot Link:  <a href="http://t.me/AmeliaGroup_bot" alt=" Amelia "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-AmeliaRobot-blue" /> </a>
-* Support Channel: <a  href="https://t.me/warbotz" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Ameliagroupbot%20Update%20Channel-9cf" /> </a>
+* Bot Link:  <a href="http://t.me/MissAlissaBot" alt=" ALISSA "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-MISS ALISSA-blue" /> </a>
+* Support Channel: <a  href="https://t.me/epusthakalaya_bots" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-MISSALISSA%20Update%20Channel-9cf" /> </a>
 
 ### Creating your own modules.
 
@@ -47,21 +47,23 @@ Make sure to edit the start and restart bats to your needs.
 Note: the restart bat requires that User account control be disabled.
 
 For queries or any issues regarding the bot please open an issue ticket or visit us at <p align="left">
-<a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://t.me/MissAlissaNews" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ## How to setup on Heroku 
 For starters click on this button 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/war-legend/AmeliaRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Madushankabro/MissAlissa"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ## Our Telegram Channel and Group
 
-* [Warbotz](https://telegram.dog/thewarbotz)
-* [WarBotzChat](https://telegram.dog/WarBotzsupport)
+* [Alissa News](https://https://t.me/MissAlissaNews)
+* [Alissa Support](https://t.me/MissAlissaSupport)
+* [E PUSTHAKALAYA BOTs](https://t.me/epusthakalaya_bots)
 
 ## Credits, and Thanks to 
 *   [Abhishek](https://telegram.dog/xAbhisheksingh)
+*   [Amelia Group Bot's Repo](https://github.com/War-Legend/AmeliaRobot)
 
 
 
