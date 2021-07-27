@@ -33,4 +33,4 @@ __help__ = """
 """
 
 
-__mod_name__ = "AmeliaSpecial.py"
+__mod_name__ = "MissAlissaSpecial.py"
