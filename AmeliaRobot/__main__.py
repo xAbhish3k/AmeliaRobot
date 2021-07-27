@@ -74,36 +74,36 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/2eb740cd775216cfc7488.jpg), ɪ'ᴍ 𝐀𝐋𝐈𝐒𝐒𝐀 ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
-"""
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/2eb740cd775216cfc7488.jpg), ɪ'ᴍ ᴀʟɪssᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟs.
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ` /help `ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ.`
+ """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ 𝐀𝐋𝐈𝐒𝐒𝐀 ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MissAlissaBot?startgroup=true"),
+            text="⚜️ ᴀᴅᴅ ᴀʟɪssᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚜️", url="t.me/MissAlissaBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="amelia_"),
+        InlineKeyboardButton(text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="amelia_"),
         InlineKeyboardButton(
-            text="ʀᴇᴠɪᴇᴡ ᴜs", url=f"https://t.me/tlgrmcbot?start=missalissabot"
+            text="🌟 ʀᴇᴠɪᴇᴡ ᴜs 🌟", url=f"https://t.me/tlgrmcbot?start=missalissabot"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʙᴏᴛ ɴᴇᴡs", url=f"https://t.me/MissAlissaNews"),
+        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/MissAlissaNews"),
         InlineKeyboardButton(
-            text="ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs❔", callback_data="help_back"),
+        InlineKeyboardButton(text="⁉️ ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ`𝐀𝐋𝐈𝐒𝐒𝐀 [🙋‍♀️](https://telegra.ph/file/b4c4e61e8a1a9eddee8f6.jpg)
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+`ʜɪ.. ɪ'ᴍ`ᴀʟɪssᴀ [🙋‍♀️](https://telegra.ph/file/b4c4e61e8a1a9eddee8f6.jpg)
+`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇs..`"""
 
 amelia_IMG = "https://telegra.ph/file/b4c4e61e8a1a9eddee8f6.jpg"
 
