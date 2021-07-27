@@ -86,9 +86,15 @@ buttons = [
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="amelia_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="ʀᴇᴠɪᴇᴡ ᴜs", url=f"https://t.me/tlgrmcbot?start=missalissabot"
         ),
     ],
+    [
+        InlineKeyboardButton(text="ʙᴏᴛ ɴᴇᴡs", url=f"https://t.me/MissAlissaNews"),
+        InlineKeyboardButton(
+            text="ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+        ),
+    ]
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
     ],
