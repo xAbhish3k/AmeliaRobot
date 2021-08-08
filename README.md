@@ -1,8 +1,8 @@
+# 𝐌𝐈𝐒𝐒 𝐀𝐋𝐈𝐒𝐒𝐀
 <p align="center">
-  <img src="https://telegra.ph/file/b4c4e61e8a1a9eddee8f6.jpg">
+  <img src="https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg">
 </p>
 
-# 𝐌𝐈𝐒𝐒 𝐀𝐋𝐈𝐒𝐒𝐀
 
 ### Telegram Group
 <p align="left">
