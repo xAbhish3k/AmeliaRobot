@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/9fd3bf1fb70476fbb8053.jpg), ɪ'ᴍ ᴀʟɪssᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟs.
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), ɪ'ᴍ ᴀʟɪssᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟs.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ` /help `ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ.`
  """
 
@@ -102,10 +102,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ ᴀʟɪssᴀ` [🙋‍♀️](https://telegra.ph/file/b4c4e61e8a1a9eddee8f6.jpg)
+`ʜɪ.. ɪ'ᴍ ᴀʟɪssᴀ` [🙋‍♀️](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇs..`"""
 
-amelia_IMG = "https://telegra.ph/file/b4c4e61e8a1a9eddee8f6.jpg"
+amelia_IMG = "https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @itsmelegend\
