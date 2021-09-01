@@ -84,9 +84,9 @@ buttons = [
             text="🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱", url="t.me/MissAlissaBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/MissAlissaNews"),
         InlineKeyboardButton(
-            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/tlgrmcbot?start=missalissabot"
+            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
