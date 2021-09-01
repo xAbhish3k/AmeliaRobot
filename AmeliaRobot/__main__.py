@@ -81,19 +81,18 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="⚜️ ᴀᴅᴅ Λ L I S S Λ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚜️", url="t.me/MissAlissaBot?startgroup=true"),
+            text="🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱", url="t.me/MissAlissaBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="amelia_"),
+        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="🌟 ʀᴇᴠɪᴇᴡ ᴜs 🌟", url=f"https://t.me/tlgrmcbot?start=missalissabot"
+            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/tlgrmcbot?start=missalissabot"
         ),
     ],
     [
-        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/MissAlissaNews"),
+        InlineKeyboardButton(text="★ ʀᴇᴠɪᴇᴡ ᴜs ★", url=f"https://t.me/tlgrmcbot?start=missalissabot"),
         InlineKeyboardButton(
-            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/{SUPPORT_CHAT}"
-        ),
+            text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="amelia_"),
     ],
     [
         InlineKeyboardButton(text="⁉️ ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
@@ -102,7 +101,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ Λ L I S S Λ` [🙋‍♀️](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
+`ʜɪ.. ɪ'ᴍ`  *Λ L I S S Λ* [🙋‍♀️](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇs..`"""
 
 amelia_IMG = "https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg"
@@ -299,7 +298,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "⚊❮❮❮ 『 HΞLP FO𝚁 *{}* MODULΞ 』❯❯❯⚊\n".format(
+                "⚊❮❮❮ 『 HΞLP FOR *{}* MODULΞ 』❯❯❯⚊\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -364,7 +363,7 @@ def amelia_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_bot licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository](https://github.com/Madushankabro/MissAlissa).
-                 \n\nIf you have any question about amelia, let us know at @MissAlissaSupport .""",
+                 \n\nIf you have any question about *Λ L I S S Λ*, let us know at @MissAlissaSupport .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
