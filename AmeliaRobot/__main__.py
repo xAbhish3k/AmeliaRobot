@@ -74,8 +74,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), ɪ'ᴍ Λ L I S S Λ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟs.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ` /help `ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ.`
+Hay There! [👋](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), My Name Is  *Λ L I S S Λ* 🧚‍♀️.
+I can help to manage your groups with useful features, feel free to add me to your groups! 
+Promote me as ADMIN to let me get in action!
+
+⁉️ 𝐖𝐇𝐀𝐓 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒? ⁉️
+Hit  /help to see all the commands and how they work!
  """
 
 buttons = [
@@ -86,7 +90,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/MissAlissaNews"),
         InlineKeyboardButton(
-            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/MissAlissaSupport"
         ),
     ],
     [
