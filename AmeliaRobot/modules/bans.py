@@ -412,6 +412,8 @@ __help__ = """
  ❍ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
  ❍ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
  ❍ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
+ 
+ @MissAlissaBot🇱🇰
 """
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban)
@@ -428,7 +430,7 @@ dispatcher.add_handler(UNBAN_HANDLER)
 dispatcher.add_handler(ROAR_HANDLER)
 dispatcher.add_handler(PUNCHME_HANDLER)
 
-__mod_name__ = "Ban/Mute"
+__mod_name__ = "Ban❌"
 __handlers__ = [
     BAN_HANDLER,
     TEMPBAN_HANDLER,
