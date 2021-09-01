@@ -16,7 +16,7 @@ __help__ = """
  • `/wallpaper`*:* sends random best anime wallpapers.
  
 
-*Style your text with 𝐀𝐋𝐈𝐒𝐒𝐀 !*
+*Style your text with Λ L I S S Λ !*
  • `/weebify <text>`*:* weebify your text!
  • `/bubble <text>`*:* bubble your text!
  • `/fbubble <text>`*:* bubble-filled your text!
@@ -30,7 +30,9 @@ __help__ = """
  *Truth And Dare*
  • `/Truth`*:* for random truth.
  • `/dare`*:* for random dare.
+ 
+ @MissAlissaBot🇱🇰
 """
 
 
-__mod_name__ = "AlissaSpecial"
+__mod_name__ = "AlissaSpecial🧚‍♀️"
