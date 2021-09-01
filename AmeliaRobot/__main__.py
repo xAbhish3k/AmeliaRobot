@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), ɪ'ᴍ ᴀʟɪssᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟs.
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), ɪ'ᴍ Λ L I S S Λ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟs.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ` /help `ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ.`
  """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="⚜️ ᴀᴅᴅ ᴀʟɪssᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚜️", url="t.me/MissAlissaBot?startgroup=true"),
+            text="⚜️ ᴀᴅᴅ Λ L I S S Λ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚜️", url="t.me/MissAlissaBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="amelia_"),
@@ -102,7 +102,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ ᴀʟɪssᴀ` [🙋‍♀️](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
+`ʜɪ.. ɪ'ᴍ Λ L I S S Λ` [🙋‍♀️](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇs..`"""
 
 amelia_IMG = "https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg"
@@ -299,7 +299,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "Here is the help for the *{}* module:\n".format(
+                "⚊❮❮❮ 『 HΞLP FO𝚁 *{}* MODULΞ 』❯❯❯⚊\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -309,7 +309,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🔙ʙᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -355,7 +355,7 @@ def amelia_about_callback(update, context):
     query = update.callback_query
     if query.data == "amelia_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *𝐀𝐋𝐈𝐒𝐒𝐀*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Λ L I S S Λ*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -370,7 +370,7 @@ def amelia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="amelia_back")
+                    InlineKeyboardButton(text="🔙ʙᴀᴄᴋ", callback_data="amelia_back")
                  ]
                 ]
             ),
@@ -390,14 +390,14 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *𝐀𝐋𝐈𝐒𝐒𝐀*
+            text=""" Hi..🤗 I'm *Λ L I S S Λ*
                  \nHere is the [Source Code](https://github.com/Madushankabro/MissAlissa) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="🔙ʙᴀᴄᴋ", callback_data="source_back")
                  ]
                 ]
             ),
@@ -442,7 +442,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="ʜᴇʟᴘ",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -454,7 +454,7 @@ def get_help(update: Update, context: CallbackContext):
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
         module = args[1].lower()
         text = (
-            "Here is the available help for the *{}* module:\n".format(
+            "⚊❮❮❮ 『 HΞLP FO𝚁 *{}* MODULΞ 』❯❯❯⚊\n".format(
                 HELPABLE[module].__mod_name__
             )
             + HELPABLE[module].__help__
@@ -463,7 +463,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="🔙ʙᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -686,7 +686,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm Online Now! Join My Updates Channel. @MissAlissaNews")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ʏᴇs! ɪ'ᴍ ᴏɴʟɪɴᴇ ✅")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
