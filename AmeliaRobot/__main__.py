@@ -75,6 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hay There! [👋](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), My Name Is  *Λ L I S S Λ* 🧚‍♀️.
+
 I can help to manage your groups with useful features, feel free to add me to your groups! 
 Promote me as ADMIN to let me get in action!
 
@@ -105,8 +106,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ`  *Λ L I S S Λ* [🙋‍♀️](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇs..`"""
+*⚊❮❮❮『 Λ L I S S Λ  HΞLP MΞИU 』❯❯❯⚊*
+
+Hay !👋 I'm *Λ L I S S Λ* [🙋‍♀️](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
+
+The following funtions will helpful to you to manage your group. 😇"""
 
 amelia_IMG = "https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg"
 
