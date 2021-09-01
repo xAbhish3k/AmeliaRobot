@@ -423,9 +423,11 @@ will result in restricting that user.
  `6h` = 6 hours
  `3d` = 3 days
  `1w` = 1 week
+ 
+ @MissAlissaBot🇱🇰
  """
 
-__mod_name__ = "Control"
+__mod_name__ = "Antiflood🚫"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     Filters.all & ~Filters.status_update & Filters.group, check_flood
