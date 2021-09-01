@@ -1,4 +1,4 @@
-# 𝐌𝐈𝐒𝐒 𝐀𝐋𝐈𝐒𝐒𝐀
+<h1 align="center">Λ L I S S Λ 🧚‍♀️</h3> 
 <p align="center">
   <img src="https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg">
 </p>
@@ -9,8 +9,8 @@
 <a href="https://t.me/MissAlissaSupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ### Bot And Channel 
-* Bot Link:  <a href="http://t.me/MissAlissaBot" alt=" ALISSA "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-MISS ALISSA-blue" /> </a>
-* Support Channel: <a  href="https://t.me/epusthakalaya_bots" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-MISSALISSA%20Update%20Channel-9cf" /> </a>
+* Bot Link:  <a href="http://t.me/MissAlissaBot" alt=" Λ L I S S Λ "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Λ L I S S Λ-blue" /> </a>
+* Support Channel: <a  href="https://t.me/epusthakalaya_bots" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Λ L I S S Λ%20Update%20Channel-9cf" /> </a>
 
 ### Creating your own modules.
 
@@ -57,8 +57,8 @@ For starters click on this button
 
 ## Our Telegram Channel and Group
 
-* [Alissa News](https://https://t.me/MissAlissaNews)
-* [Alissa Support](https://t.me/MissAlissaSupport)
+* [Λ L I S S Λ News](https://https://t.me/MissAlissaNews)
+* [Λ L I S S Λ Support](https://t.me/MissAlissaSupport)
 * [E PUSTHAKALAYA BOTs](https://t.me/epusthakalaya_bots)
 
 ## Credits, and Thanks to 
