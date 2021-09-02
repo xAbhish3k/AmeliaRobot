@@ -1110,6 +1110,8 @@ user joined chat, user left chat.
 
 *Welcome markdown:* 
  ❍ /welcomehelp*:* view more formatting information for custom welcome/goodbye messages.
+ 
+ @MissAlissaBot🇱🇰
 """
 
 NEW_MEM_HANDLER = MessageHandler(Filters.status_update.new_chat_members, new_member)
@@ -1144,7 +1146,7 @@ dispatcher.add_handler(CLEAN_SERVICE_HANDLER)
 dispatcher.add_handler(BUTTON_VERIFY_HANDLER)
 dispatcher.add_handler(WELCOME_MUTE_HELP)
 
-__mod_name__ = "Arrivals"
+__mod_name__ = "Greetings🎊"
 __command_list__ = []
 __handlers__ = [
     NEW_MEM_HANDLER,
