@@ -47,6 +47,8 @@ async def _(event):
 __help__ = """
 *live cricket score*
  ❍ /cs*:* Latest live scores from cricinfo
+ 
+ @MissAlissaBot🇱🇰
 """
 
-__mod_name__ = "Cricket"
+__mod_name__ = "Cricket🏏"
