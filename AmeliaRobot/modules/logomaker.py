@@ -33,10 +33,10 @@ async def lego(event):
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
+    draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="white")
     fname2 = "LogoByYone.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @MissAlissaBot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @MissAlissaBot🇱🇰")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -90,5 +90,6 @@ file_helpo = file_help.replace("_", " ")
 __help__ = """
  ❍ /logo text :  Create your logo with your name
 
+@MissAlissaBot🇱🇰
  """
-__mod_name__ = "Logo"
+__mod_name__ = "Logo🀄️"
