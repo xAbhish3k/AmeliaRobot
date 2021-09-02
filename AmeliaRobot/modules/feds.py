@@ -2394,7 +2394,7 @@ def fed_user_help(update: Update, context: CallbackContext):
     )
 
 
-__mod_name__ = "Feds"
+__mod_name__ = "Federations🎖"
 
 __help__ = """
 Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
@@ -2408,6 +2408,7 @@ Feds are now divided into 3 sections for your ease.
 ❍ /fedadminhelp*:* Provides help for fed administration commands
 ❍ /feduserhelp*:* Provides help for commands anyone can use
 
+@MissAlissaBot🇱🇰
 """
 
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed)
