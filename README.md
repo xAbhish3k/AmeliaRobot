@@ -1,6 +1,6 @@
 <h1 align="center">Λ L I S S Λ 🧚‍♀️</h3> 
 <p align="center">
-  <img src="https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg">
+  <img src="https://telegra.ph/file/4a5ffa86a80023f6365f6.jpg">
 </p>
 
 
