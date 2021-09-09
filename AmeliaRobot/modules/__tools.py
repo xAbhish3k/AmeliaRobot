@@ -1,10 +1,6 @@
 __mod_name__ = "Tools🛠"
 
 __help__ = """
-*Telegraph*
- ❍ /tgm :Get Telegraph Link Of Replied Media
- ❍ /tgt :Get Telegraph Link of Replied Text
-
 *Chatbot* 
 _Admins only:_
  ❍ /addchat*:* Enables Chatbot mode in the chat.
