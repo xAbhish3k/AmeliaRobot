@@ -1,10 +1,6 @@
-__mod_name__ = "◎Tools"
+__mod_name__ = "Tools🛠"
 
 __help__ = """
-*Telegraph*
- ❍ /tgm :Get Telegraph Link Of Replied Media
- ❍ /tgt :Get Telegraph Link of Replied Text
-
 *Chatbot* 
 _Admins only:_
  ❍ /addchat*:* Enables Chatbot mode in the chat.
@@ -20,5 +16,7 @@ _Admins only:_
  ❍ /encrypt*:* Encrypts The Given Text
  ❍ /decrypt*:* Decrypts Previously Ecrypted Text
  ❍ /zip*:* reply to a telegram file to compress it in .zip format
- ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format
+ ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format.
+ 
+ @MissAlissaBot🇱🇰
 """

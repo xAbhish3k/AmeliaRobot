@@ -1,4 +1,4 @@
-__mod_name__ = "◎Music"
+__mod_name__ = "Music🎶"
 
 __help__ = """
 /saavn <i>query</i>: download song from Saavn servers.
@@ -7,4 +7,6 @@ __help__ = """
 /song <i>query</i>: download from youtube
 /lyrics <i>song name</i> : This plugin searches for song lyrics with song name.
 /glyrics <i> song name </i> : This plugin searches for song lyrics with song name and artist.
+
+@MissAlissaBot🇱🇰
 """

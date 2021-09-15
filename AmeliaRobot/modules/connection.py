@@ -387,7 +387,7 @@ def connect_button(update, context):
         connect_chat(update, context)
 
 
-__mod_name__ = "Connect"
+__mod_name__ = "Connection🌏"
 
 __help__ = """
 Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
@@ -400,6 +400,8 @@ This allows you to connect to a chat's database, and add things to it without th
 
 *Admin only:*
  ❍ /allowconnect <yes/no>: allow a user to connect to a chat
+ 
+ @MissAlissaBot🇱🇰
 """
 
 CONNECT_CHAT_HANDLER = CommandHandler("connect", connect_chat, pass_args=True)
