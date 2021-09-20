@@ -339,6 +339,8 @@ __help__ = """
  ❍ /sanitize*:* always use this before /pat or any contact
  ❍ /pat*:* pats a user, or get patted
  ❍ /8ball*:* predicts using 8ball method 
+ 
+@MissAlissaBot🇱🇰 
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
@@ -371,7 +373,7 @@ dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(EIGHTBALL_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
 
-__mod_name__ = "Memes"
+__mod_name__ = "Memes🎭"
 __command_list__ = [
     "runs",
     "slap",

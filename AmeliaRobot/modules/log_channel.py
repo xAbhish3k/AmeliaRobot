@@ -201,9 +201,11 @@ Setting the log channel is done by:
 ❍ adding the bot to the desired channel (as an admin!)
 ❍ sending /setlog in the channel
 ❍ forwarding the /setlog to the group
+
+@MissAlissaBot🇱🇰
 """
 
-    __mod_name__ = "Channel"
+    __mod_name__ = "Channel📣"
 
     LOG_HANDLER = CommandHandler("logchannel", logging)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog)

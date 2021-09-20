@@ -70,5 +70,5 @@ DARE = (
     "Send a screenshot of your gallery.",
     "Set your crush’s picture as your dp.",
     "Suggest me more dares.",
-    "Send i love uh message to @itsmelegend.",
+    "Send i love uh message to @kasu_bro.",
 )

@@ -637,9 +637,10 @@ doin?
 *Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
 Check ❍ /markdownhelp to know more!
 
+@MissAlissaBot🇱🇰
 """
 
-__mod_name__ = "Filters"
+__mod_name__ = "Filter⚜️"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)

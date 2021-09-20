@@ -449,7 +449,7 @@ def __stats__():
     )
 
 
-__mod_name__ = "BlackList"
+__mod_name__ = "BlackList🏴"
 
 __help__ = """
 
@@ -473,7 +473,9 @@ Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, 
  ❍ /rmblsticker <sticker link>*:* Same as above
  ❍ /blstickermode <ban/tban/mute/tmute>*:* sets up a default action on what to do if users use blacklisted stickers
 Note:
- ❍ <sticker link> can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
+ ❍ <sticker link> can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message.
+ 
+ @MissAlissaBot🇱🇰
 """
 
 BLACKLIST_HANDLER = DisableAbleCommandHandler(
