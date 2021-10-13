@@ -188,10 +188,12 @@ else:
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("yone", API_ID, API_HASH)
-pbot = Client("yonepbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+telethn = TelegramClient("Amelia", API_ID, API_HASH)
+pbot = Client("ameliapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pgram = Client("Ameliapyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+mongo_client = MongoClient(MONGO_DB_URI)
+db = mongo_client.MizuharaSmexy
 dispatcher = updater.dispatcher
-
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
 WOLVES = list(WOLVES)
@@ -209,3 +211,24 @@ from AmeliaRobot.modules.helper_funcs.handlers import (
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
+
+print("Starting Pyrogram Client")
+pgram.start()
+
+print("Aquiring BOT Client Info")
+
+bottie = pgram.get_me()
+
+BOT_ID = bottie.id
+BOT_USERNAME = bottie.username
+BOT_NAME = bottie.first_name
+BOT_MENTION = bottie.mention
+
+###Fixed current Bugs By @AnuragSharma080./end credits.
+
+end_credits = """
+INFO GATHERED!
+Client: Amelia Pyro
+Copyright: (c) 2021 AmeliaGroup_bot
+"""
+print(end_credits)
