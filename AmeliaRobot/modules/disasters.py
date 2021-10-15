@@ -628,10 +628,10 @@ def devlist(update: Update, context: CallbackContext):
 #  ❍ /gbanlist*:* Outputs a list of gbanned users
 
 # *Global Blue Text*
-#  ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across YoneRobot.
+#  ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across AmeliaRobot.
 #  ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
 
-# *yone Core*
+# *amelia Core*
 # *Owner only*
 #  ❍ /send*:* <module name>*:* Send module
 #  ❍ /install*:* <reply to a .py>*:* Install module 
